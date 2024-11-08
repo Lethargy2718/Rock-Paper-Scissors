@@ -1,0 +1,105 @@
+* {
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5E3D0;
+    color: #F5E3D0;
+    font-weight: 900;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: #BF5700;   
+    padding: 2rem 1rem;
+    border: solid 10px #4B2E1A;
+    border-radius: 3rem;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.7);
+}
+
+#label {
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+#player {
+    text-align: center;
+    font-size: 32px;
+}
+#score {
+    font-size: 3rem;
+    margin: 0 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 2rem;
+    margin-bottom: 3rem;
+    background-color: #4A2C20;
+    padding: 20px;
+}
+
+.cards img {
+    height: auto;
+    width: 200px;
+    background-color: #8A360F;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#makeMove {
+    font-size: 2rem;
+    margin: 0;
+}
+.choices img {
+    height: auto;
+    width: 80px;
+}
+
+.choices button {
+    padding: 5px;
+    margin: 0 1rem;
+    cursor: pointer;
+    background-color: #8A360F;
+}
+
+.cards img, .choices button, .cards {
+    border: #2B1A0F 5px solid;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 0.5px rgba(0, 0, 0, 0.7);
+}
+
+.play {
+    background-color: #8a360f;
+    color: #F5E3D0;
+    font-weight: 600;
+    padding: 8px 4rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4A2C20;
+}
